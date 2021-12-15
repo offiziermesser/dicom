@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/suyashkumar/dicom/pkg/vrraw"
+	"github.com/offiziermesser/dicom/pkg/vrraw"
 
-	"github.com/suyashkumar/dicom/pkg/uid"
+	"github.com/offiziermesser/dicom/pkg/uid"
 
-	"github.com/suyashkumar/dicom/pkg/dicomio"
-	"github.com/suyashkumar/dicom/pkg/tag"
+	"github.com/offiziermesser/dicom/pkg/dicomio"
+	"github.com/offiziermesser/dicom/pkg/tag"
 )
 
 var (

@@ -3,20 +3,20 @@ package dicom
 import (
 	"bytes"
 	"encoding/binary"
-	"github.com/suyashkumar/dicom/pkg/vrraw"
+	"github.com/offiziermesser/dicom/pkg/vrraw"
 	"io/ioutil"
 	"os"
 	"testing"
 
-	"github.com/suyashkumar/dicom/pkg/frame"
+	"github.com/offiziermesser/dicom/pkg/frame"
 
 	"github.com/google/go-cmp/cmp/cmpopts"
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/suyashkumar/dicom/pkg/dicomio"
-	"github.com/suyashkumar/dicom/pkg/tag"
-	"github.com/suyashkumar/dicom/pkg/uid"
+	"github.com/offiziermesser/dicom/pkg/dicomio"
+	"github.com/offiziermesser/dicom/pkg/tag"
+	"github.com/offiziermesser/dicom/pkg/uid"
 )
 
 // TestWrite tests the write package by ensuring that it is consistent with the

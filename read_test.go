@@ -10,13 +10,13 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/suyashkumar/dicom/pkg/vrraw"
+	"github.com/offiziermesser/dicom/pkg/vrraw"
 
-	"github.com/suyashkumar/dicom/pkg/dicomio"
-	"github.com/suyashkumar/dicom/pkg/frame"
+	"github.com/offiziermesser/dicom/pkg/dicomio"
+	"github.com/offiziermesser/dicom/pkg/frame"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/suyashkumar/dicom/pkg/tag"
+	"github.com/offiziermesser/dicom/pkg/tag"
 )
 
 func TestReadTag(t *testing.T) {
